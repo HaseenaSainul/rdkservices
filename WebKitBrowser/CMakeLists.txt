@@ -22,7 +22,7 @@ cmake_minimum_required(VERSION 3.3)
 find_package(WPEFramework)
 #project_version(1.0.0)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}cmake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 include(CmakeHelperFunctions)
 
